@@ -1,10 +1,18 @@
-import React, { useState } from 'react';
+import React from 'react';
+import { useForm } from 'react-hook-form';
 
 import images from '../../constants';
 import { AppWrap, MotionWrap } from '../../wrapper';
 import './Footer.scss';
 
 const Footer = () => {
+  const { register, reset } = useForm({
+    defaultValues: {
+      name: '',
+      email: '',
+      message: '',
+    },
+  });
   return (
     <>
       <h2 className="head-text">Take a coffee & chat with me</h2>
@@ -25,15 +33,35 @@ const Footer = () => {
       </div>
       <div className="app__footer-form app__flex">
         <div className="app__flex">
-          <input className="p-text" type="text" placeholder="Your Name" />
+          <input
+            {...register('name')}
+            className="p-text"
+            type="text"
+            placeholder="Your Name"
+          />
         </div>
         <div className="app__flex">
-          <input className="p-text" type="email" placeholder="Your Email" />
+          <input
+            {...register('email')}
+            className="p-text"
+            type="email"
+            placeholder="Your Email"
+          />
         </div>
         <div>
-          <textarea className="p-text" placeholder="Your Message" />
+          <textarea
+            {...register('message')}
+            className="p-text"
+            placeholder="Your Message"
+          />
         </div>
-        <button type="button" className="p-text">
+        <button
+          type="button"
+          className="p-text"
+          onClick={() => {
+            reset();
+          }}
+        >
           Send Message
         </button>
       </div>
