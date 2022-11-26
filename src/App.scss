@@ -103,11 +103,15 @@
     align-items: center;
 
     transition: all 0.3s ease-in-out;
+    cursor: pointer;
 
     svg {
       width: 15px;
       height: 15px;
       color: var(--gray-color);
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
 
     &:hover {

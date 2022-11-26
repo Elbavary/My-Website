@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 import { AppWrap, MotionWrap } from '../../wrapper';
-import { skills } from './skills';
+import { skills } from '../../data/SkillsData';
 import './Skills.scss';
 
 const Skills = () => {

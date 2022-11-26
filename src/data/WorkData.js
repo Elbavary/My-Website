@@ -1,0 +1,60 @@
+import images from '../constants';
+
+export const works = [
+  {
+    title: 'UI/UX',
+    description: 'I Am A Good UI/UX Designer',
+    imgUrl: images.about01,
+    tags: ['UI/UX', 'ALL'],
+    projectLink: 'https://elbavary.github.io/Template_One_By_Khaled/',
+    codeLink: 'https://github.com/Elbavary/Template_One_By_Khaled',
+  },
+  {
+    title: 'UI/UX',
+    description: 'I Am A Good UI/UX Designer',
+    imgUrl: images.about02,
+    tags: ['UI/UX', 'ALL'],
+    projectLink: 'https://elbavary.github.io/Template_Two_By_Khaled/',
+    codeLink: 'https://github.com/Elbavary/Template_Two_By_Khaled',
+  },
+  {
+    title: 'UI/UX',
+    description: 'I Am A Good UI/UX Designer',
+    imgUrl: images.about03,
+    tags: ['UI/UX', 'JavaScript', 'ALL'],
+    projectLink: 'https://elbavary.github.io/Template_Three_By_Khaled/',
+    codeLink: 'https://github.com/Elbavary/Template_Three_By_Khaled',
+  },
+  {
+    title: 'UI/UX',
+    description: 'I Am A Good UI/UX Designer',
+    imgUrl: images.about04,
+    tags: ['UI/UX', 'SASS', 'ALL'],
+    projectLink: 'https://elaborate-sable-f5ef2b.netlify.app/index.html',
+    codeLink: 'https://github.com/Elbavary/Portfolio_Website',
+  },
+  {
+    title: 'UI/UX',
+    description: 'I Am A Good UI/UX Designer',
+    imgUrl: images.about05,
+    tags: ['UI/UX', 'Bootstrap', 'ALL'],
+    projectLink: 'https://elbavary.github.io/Bootstrap_Project',
+    codeLink: 'https://github.com/Elbavary/Bootstrap_Project',
+  },
+  {
+    title: 'Web Development',
+    description: 'I Am A Good Web Developer',
+    imgUrl: images.about06,
+    tags: ['React JS', 'Tailwind', 'ALL'],
+    projectLink: 'https://glowing-treacle-2a0ade.netlify.app/',
+    codeLink: 'https://github.com/Elbavary/React_First_App',
+  },
+  {
+    title: 'Web Development',
+    description: 'I Am A Good Web Developer',
+    imgUrl: images.about07,
+    tags: ['JavaScript', 'ALL'],
+    projectLink: 'https://elbavary.github.io/JavaScript_Portfolio/',
+    codeLink: 'https://github.com/Elbavary/JavaScript_Portfolio',
+  },
+];

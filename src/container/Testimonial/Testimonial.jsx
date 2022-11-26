@@ -3,7 +3,7 @@ import { HiChevronLeft, HiChevronRight } from 'react-icons/hi';
 
 import { AppWrap, MotionWrap } from '../../wrapper';
 import './Testimonial.scss';
-import { testimonials } from './testimonial';
+import { testimonials } from '../../data/TestimonialData';
 
 const Testimonial = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -14,6 +14,7 @@ const Testimonial = () => {
 
   return (
     <>
+      <h2 className="head-text testimonial__head">Testimonials</h2>
       {testimonials.length && (
         <>
           <div className="app__testimonial-item app__flex">
