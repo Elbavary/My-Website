@@ -4,24 +4,18 @@ import { FaFacebookF } from 'react-icons/fa';
 
 const SocialMedia = () => (
   <div className="app__social">
-    <div>
-      <a
-        href="https://www.linkedin.com/in/khaled-gamel-ba5b37223/"
-        target="_blank"
-      >
-        <BsLinkedin />
-      </a>
-    </div>
-    <div>
-      <a href="https://github.com/Elbavary?tab=repositories" target="_blank">
-        <BsGithub />
-      </a>
-    </div>
-    <div>
-      <a href="https://www.facebook.com/khaledgamel6" target="_blank">
-        <FaFacebookF />
-      </a>
-    </div>
+    <a
+      href="https://www.linkedin.com/in/khaled-gamel"
+      target="_blank"
+    >
+      <BsLinkedin />
+    </a>
+    <a href="https://github.com/Elbavary?tab=repositories" target="_blank">
+      <BsGithub />
+    </a>
+    <a href="https://www.facebook.com/khaledgamel6" target="_blank">
+      <FaFacebookF />
+    </a>
   </div>
 );
 
