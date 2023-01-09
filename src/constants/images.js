@@ -1,6 +1,5 @@
 import email from '../assets/email.png';
 import mobile from '../assets/mobile.png';
-import api from '../assets/api.png';
 import css from '../assets/css.png';
 import git from '../assets/git.png';
 import html from '../assets/html.png';
@@ -9,6 +8,9 @@ import react from '../assets/react.png';
 import redux from '../assets/redux.png';
 import sass from '../assets/sass.png';
 import typescript from '../assets/typescript.png';
+import node from '../assets/node.png';
+import express from '../assets/express.png';
+import mongodb from '../assets/mongodb.png';
 
 import about01 from '../assets/about01.png';
 import about02 from '../assets/about02.png';
@@ -31,7 +33,6 @@ import next from '../assets/next.svg';
 export default {
   email,
   mobile,
-  api,
   css,
   git,
   html,
@@ -55,4 +56,7 @@ export default {
   tailwind,
   bootstrap,
   next,
+  node,
+  express,
+  mongodb,
 };

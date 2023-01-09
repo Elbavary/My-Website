@@ -46,7 +46,15 @@ export const skills = [
     icon: images.next,
   },
   {
-    name: 'REST APIs',
-    icon: images.api,
+    name: 'NodeJS',
+    icon: images.node,
+  },
+  {
+    name: 'Express',
+    icon: images.express,
+  },
+  {
+    name: 'MongoDB',
+    icon: images.mongodb,
   },
 ];
