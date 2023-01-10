@@ -2,7 +2,7 @@ import images from '../constants';
 
 export const skills = [
   {
-    name: 'Html5',
+    name: 'HTML5',
     icon: images.html,
   },
   {
