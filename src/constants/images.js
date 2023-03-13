@@ -21,6 +21,7 @@ import about06 from '../assets/about06.png';
 import about07 from '../assets/about07.png';
 import about08 from '../assets/about08.png';
 import about09 from '../assets/about09.png';
+import about10 from '../assets/about10.png';
 
 import profile from '../assets/profile.png';
 import circle from '../assets/circle.svg';
@@ -50,6 +51,7 @@ export default {
   about07,
   about08,
   about09,
+  about10,
   profile,
   circle,
   logo,
