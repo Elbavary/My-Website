@@ -3,7 +3,8 @@ import images from '../constants';
 export const works = [
   {
     title: 'MERN E-Commerce',
-    description: 'Modern And Responsive GPT-3 App With React',
+    description:
+      'MERN E-Commerce App With Node, Express, Mongo DB, PayPal, And JWT',
     imgUrl: images.about10,
     tags: ['Node JS', 'React JS', 'ALL'],
     projectLink: 'https://mern-e-commerce-6cxq.onrender.com/',
