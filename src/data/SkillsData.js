@@ -57,4 +57,8 @@ export const skills = [
     name: 'MongoDB',
     icon: images.mongodb,
   },
+  {
+    name: 'Material UI',
+    icon: images.material,
+  },
 ];

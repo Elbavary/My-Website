@@ -11,6 +11,7 @@ import typescript from '../assets/typescript.png';
 import node from '../assets/node.png';
 import express from '../assets/express.png';
 import mongodb from '../assets/mongodb.png';
+import material from '../assets/material.png';
 
 import about01 from '../assets/about01.png';
 import about02 from '../assets/about02.png';
@@ -22,6 +23,7 @@ import about07 from '../assets/about07.png';
 import about08 from '../assets/about08.png';
 import about09 from '../assets/about09.png';
 import about10 from '../assets/about10.png';
+import about11 from '../assets/about11.png';
 
 import profile from '../assets/profile.png';
 import circle from '../assets/circle.svg';
@@ -31,6 +33,7 @@ import tailwind from '../assets/tailwind.png';
 import bootstrap from '../assets/bootstrap.png';
 import next from '../assets/next.svg';
 
+// eslint-disable-next-line
 export default {
   email,
   mobile,
@@ -52,6 +55,7 @@ export default {
   about08,
   about09,
   about10,
+  about11,
   profile,
   circle,
   logo,
@@ -61,4 +65,5 @@ export default {
   node,
   express,
   mongodb,
+  material,
 };

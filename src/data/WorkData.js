@@ -11,6 +11,15 @@ export const works = [
     codeLink: 'https://github.com/Elbavary/MERN-E-Commerce',
   },
   {
+    title: 'MERN Dashboard',
+    description:
+      'MERN Dashboard App With Node, Express, Mongo DB and Material UI',
+    imgUrl: images.about11,
+    tags: ['Node JS', 'React JS', 'ALL'],
+    projectLink: 'https://dashboard-frontend-zfd7.onrender.com/',
+    codeLink: 'https://github.com/Elbavary/MERN-Dashboard',
+  },
+  {
     title: 'Hoobank App',
     description: 'Hoobank App With React Amd TailwindCSS',
     imgUrl: images.about06,
